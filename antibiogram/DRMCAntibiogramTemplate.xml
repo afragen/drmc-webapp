@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./css/antibiogram.xsl"?>
+
+<antibiogram>
+  <title>DRMC Antibiogram</title>
+  <date>1/1/10 - 12/31/10</date>
+  <organism>
+    <type></type>
+    <name></name>
+    <css></css>
+    <isolates></isolates>
+    <antibiotic>
+      <name>
+        <value>Ampicillin</value>
+        <css>Ampicillin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Amikacin</value>
+        <css>Amikacin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Cefazolin</value>
+        <css>Cefazolin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Cefepime</value>
+        <css>Cefepime</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Ceftazidime</value>
+        <css>Ceftazidime</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Ceftriaxone</value>
+        <css>Ceftriaxone</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Ciprofloxacin</value>
+        <css>Ciprofloxacin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Clindamycin</value>
+        <css>Clindamycin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Erythromycin</value>
+        <css>Erythromycin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Gentamicin</value>
+        <css>Gentamicin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Imipenem</value>
+        <css>Imipenem</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Levofloxacin</value>
+        <css>Levofloxacin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Linezolid</value>
+        <css>Linezolid</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Nitrofurantoin</value>
+        <css>Nitrofurantoin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Penicillin G</value>
+        <css>Penicillin_G</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Pip/Tazo</value>
+        <css>Pip_Tazo</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Tobramycin</value>
+        <css>Tobramycin</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Trim/Smx</value>
+        <css>Trim_Smx</css>
+        <sensitivity></sensitivity>
+      </name>
+      <name>
+        <value>Vancomycin</value>
+        <css>Vancomycin</css>
+        <sensitivity></sensitivity>
+      </name>
+    </antibiotic>
+  </organism>
+  <antibiotic>
+    <name></name>
+    <css></css>
+    <bacteria>
+      <name>
+        <type>gram_negative</type>
+        <value>A baumannii</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_negative</type>
+        <value>E aerogenes</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_negative</type>
+        <value>E cloacae</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_negative</type>
+        <value>E coli</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_negative</type>
+        <value>K pneumonia</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_negative</type>
+        <value>P mirabilis</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_negative</type>
+        <value>P aeurginosa</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_negative</type>
+        <value>S marcescens</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_positive</type>
+        <value>Coag neg staph</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_positive</type>
+        <value>S epidermidis</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_positive</type>
+        <value>S aureus</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_positive</type>
+        <value>E faecalis</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_positive</type>
+        <value>E faecium</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>
+    <bacteria>
+      <name>
+        <type>gram_positive</type>
+        <value>S pneumonia</value>
+        <sensitivity></sensitivity>
+      </name>
+    </bacteria>    
+  </antibiotic>
+</antibiogram>

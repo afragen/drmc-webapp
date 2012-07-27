@@ -1,0 +1,5 @@
+table#antibiotic-organism td.sens { padding-left:30px; text-align:left;}
+table#organism-antibiotic td.sens { width:50px; padding-left:10px;}
+table#organism, table#antibiotic { width:300px; }
+table.center { margin-left:auto; margin-right:auto; }
+th, td {font-size:0.9em;}

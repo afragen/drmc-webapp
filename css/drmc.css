@@ -1,0 +1,12 @@
+table#center { margin-left:auto; margin-right:auto; }
+li.center { padding-top:0.5em; padding-bottom:0.5em; }
+
+.pad1 { padding-left:1em; }
+.pad15 { padding-left:1.5em;}
+.pad_half { padding-left:0.5em; }
+.indent_half { text-indent:-0.5em; }
+.pad_top { padding-top:0.5em; }
+
+li .item_wrap { margin-left:-0.5em; }
+
+.small { font-size: 80%; }
