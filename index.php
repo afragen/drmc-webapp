@@ -3,7 +3,7 @@
 
 <head>
 
-<?php include(locate_template('mobile.php')); ?>
+<?php include_once('mobile.php'); ?>
 
 <meta content="yes" name="apple-mobile-web-app-capable" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
