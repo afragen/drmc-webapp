@@ -7,7 +7,7 @@
 
 <meta content="yes" name="apple-mobile-web-app-capable" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" />
+<meta content="initial-scale=1.0, user-scalable=0, width=device-width, height=device-height" name="viewport" />
 <meta name="format-detection" content="telephone=yes" />
 <link href="./css/style.css" rel="stylesheet" media="screen" type="text/css" />
 <link rel="stylesheet" href="./css/drmc.css" type="text/css" media="screen" />
