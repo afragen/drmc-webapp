@@ -10,3 +10,20 @@ li.center { padding-top:0.5em; padding-bottom:0.5em; }
 li .item_wrap { margin-left:-0.5em; }
 
 .small { font-size: 80%; }
+
+/* Fix tributton for iPhone 6 */
+#tributton a:first-child, #duobutton a:first-child {
+	width: 101px;
+}
+#tributton a:last-child, #duobutton a:last-child {
+	width: 101px;
+}
+#tributton a {
+	width: 106px;
+}
+#duobutton .links {
+	width: 195px;
+}
+#tributton .links {
+	width: 302px;
+}
