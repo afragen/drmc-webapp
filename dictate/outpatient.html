@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="../manifest.php">
+<html manifest="../cache.manifest">
 
 <head>
 <meta content="yes" name="apple-mobile-web-app-capable" />

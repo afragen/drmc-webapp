@@ -10,9 +10,9 @@
 
 <xsl:output method="html" doctype-system="legacy-compat"/>
 
-  <!-- Root template -->    
+  <!-- Root template -->
   <xsl:template match="/">
-    <html manifest="../manifest.php">
+    <html manifest="../cache.manifest">
   	  <head>
         <meta content="yes" name="apple-mobile-web-app-capable" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
@@ -66,7 +66,7 @@
   	   </script>
   	    <title><xsl:value-of select="antibiogram/title"/></title>
 	    </head>
-	      
+
 	      <!-- Body -->
       <body>
           <div id="topbar">
@@ -91,11 +91,11 @@
           	<!-- Support iWebKit by sending us traffic; please keep this footer on your page, consider it a thank you for our work :-) -->
           	<a class="noeffect" href="http://iwebkit.net">Powered by iWebKit</a>
           </div>
-          
+
       </body>
       </html>
 	</xsl:template>
-	  
+
   <!-- organismTable template -->
   <xsl:template name="organismTable">
       <table border="1" id="organism" class="organism center">
@@ -108,8 +108,8 @@
           </tr>
     	    <xsl:for-each select="antibiogram/organism">
          	<xsl:sort select="type" order="ascending"/>
-   	        <xsl:variable name="stain"><xsl:value-of select="type"/></xsl:variable> 
-    	      <xsl:variable name="bug"><xsl:value-of select="css"/></xsl:variable> 
+   	        <xsl:variable name="stain"><xsl:value-of select="type"/></xsl:variable>
+    	      <xsl:variable name="bug"><xsl:value-of select="css"/></xsl:variable>
               <tr id="{$bug}" class="{$stain}">
                 <!-- <td><xsl:value-of select="type"/></td> -->
                 <td class="{$stain}"><xsl:value-of select="name"/></td>
@@ -119,7 +119,7 @@
             </xsl:for-each>
         </table>
   </xsl:template>
-   
+
    <!-- organism-antibioticTemplate -->
    <xsl:template name="organism-antibioticTemplate">
           <table id="organism-antibiotic">
@@ -137,7 +137,7 @@
             </tr>
           </table>
    </xsl:template>
-   
+
    <!-- antibioticTable template -->
    <xsl:template name="antibioticTable">
        <table border="1" id="antibiotic" class="antibiotic center" style="display:none;">
@@ -148,7 +148,7 @@
              <th>Organism/Sensitivity</th>
            </tr>
      	    <xsl:for-each select="antibiogram/antibiotic">
-    	      <xsl:variable name="bugjuice"><xsl:value-of select="css"/></xsl:variable> 
+    	      <xsl:variable name="bugjuice"><xsl:value-of select="css"/></xsl:variable>
               <tr>
                  <td class="{$bugjuice}"><xsl:value-of select="name"/></td>
                  <td class="spacer"><xsl:text disable-output-escaping="yes">&#160;</xsl:text></td>
@@ -157,14 +157,14 @@
              </xsl:for-each>
          </table>
    </xsl:template>
-   
+
    <!-- antibiotic-organismTemplate -->
    <xsl:template name="antibiotic-organismTemplate">
           <table id="antibiotic-organism">
             <tr>
         	  <xsl:for-each select="bacteria/name">
         	    <xsl:sort select="sensitivity" data-type="number" order="descending"/>
-        	    <xsl:variable name="stain"><xsl:value-of select="type"/></xsl:variable> 
+        	    <xsl:variable name="stain"><xsl:value-of select="type"/></xsl:variable>
               <xsl:if test="sensitivity != ''"><!-- <xsl:if test="sensitivity != 0"> -->
                 <tr>
                   <td class="{$stain}"><xsl:value-of select="value"/></td>
@@ -176,5 +176,5 @@
           </table>
    </xsl:template>
 
-   
+
 </xsl:stylesheet>

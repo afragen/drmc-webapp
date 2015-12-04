@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="manifest.php">
+<html manifest="cache.manifest">
 
 <head>
 
@@ -29,13 +29,13 @@
 	<li class="menu"><a href="./scip/index.html"><span class="name">SCIP Information</span><span class="arrow"></span></a></li>
 	<li class="menu"><a href="./preop-testing/index.html"><span class="name">Pre-Op Testing</span><span class="arrow"></span></a></li>
 	<li class="menu"><a href="./dictate/index.html"><span class="name">Dictation &amp; Coding</span><span class="arrow"></span></a></li>
-     
+
   </ul>
   <ul class="pageitem">
-  	<li class="textbox">These webapps are available for offline usage on the appropriate device. They are provided by Dr. Andrew Fragen. Please let DRMC Administration (760.323.6778) know that you find this application ingenious.<div class="small pad_top"><a href="mailto:afragen@dtsurgeons.com">Feedback is appreciated.</a></div></li>
+  	<li class="textbox">These webapps are available for offline usage on the appropriate device. They are provided by Dr. Andrew Fragen. Please let DRMC Administration (760.323.6778) know that you find this application ingenious.<div class="small pad_top"><a href="mailto:afragen@fragensurgery.com">Feedback is appreciated.</a></div></li>
   </ul>
-  
-  
+
+
 </div>
 <div id="footer">
 	<!-- Support iWebKit by sending us traffic; please keep this footer on your page, consider it a thank you for our work :-) -->
