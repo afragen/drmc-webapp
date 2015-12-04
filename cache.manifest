@@ -15,4 +15,3 @@
     }
   }
   echo "# Hash: " . md5($hashes) . "\n";
-?>
